@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.8.1",
+    "nuxt-icon": "^0.6.6",
+    "nuxt-primevue": "^0.2.2",
+    "postcss": "^8.4.31",
+    "swagger-typescript-api": "^13.0.3",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "worker-loader": "^3.0.8"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@types/file-saver": "^2.0.7",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "devextreme": "23.1.6",
+    "devextreme-vue": "23.1.6",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "flowbite": "^2.1.1",
+    "jwt-decode": "^4.0.0",
+    "primevue": "^3.45.0",
+    "vue-tailwind-datepicker": "^1.6.1"
+  }
+}
